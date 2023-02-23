@@ -1,6 +1,5 @@
 const nodemailer = require('nodemailer');
 const pug = require('pug');
-// const { htmlToText } = require('html-to-text');
 const { convert } = require('html-to-text');
 
 const sgMail = require('@sendgrid/mail');
